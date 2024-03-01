@@ -1,1 +1,11 @@
-manba: https://www.youtube.com/playlist?list=PLe-iIMbo5JOJm6DRTjhleHojroS-Bbocr
+Command:
+ ~ $ py -m venv venv
+ ~ $ source venv/Scripts/activate
+ ~ $ pip install aiogram==2.25.1
+ ~ $ deactivate
+
+Source: https://www.youtube.com/playlist?list=PLe-iIMbo5JOJm6DRTjhleHojroS-Bbocr
+
+Lessons:
+ - 001: Echo bot
+ - 002: Command
