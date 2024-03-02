@@ -13,7 +13,7 @@ HELP_COMMAND = """
 
 
 @dp.message_handler(commands=["help"])
-async def welcome(message: types.Message):
+async def help(message: types.Message):
     await message.reply(HELP_COMMAND)
 
 

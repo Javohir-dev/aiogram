@@ -9,3 +9,7 @@ Source: https://www.youtube.com/playlist?list=PLe-iIMbo5JOJm6DRTjhleHojroS-Bbocr
 Lessons:
  - 001: Echo bot
  - 002: Command
+ - 003: Some function with command
+ - 004: Work with any text, stickers and emoji
+ - 005: stickers, sticker id etc.
+ 
