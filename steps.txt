@@ -13,3 +13,6 @@ Lessons:
  - 004: Work with any text, stickers and emoji
  - 005: stickers, sticker id etc.
  - 006: Images and locations and etc.
+ - 007: ReplyKeyboardMarkup, ReplyKeyboardRemove, KeyboardButton
+ - 008: ReplyKeyboardMarkup, ReplyKeyboardRemove, KeyboardButton (2)
+ - 009: Inline Button
