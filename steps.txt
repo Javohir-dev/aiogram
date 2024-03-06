@@ -16,3 +16,4 @@ Lessons:
  - 007: ReplyKeyboardMarkup, ReplyKeyboardRemove, KeyboardButton
  - 008: ReplyKeyboardMarkup, ReplyKeyboardRemove, KeyboardButton (2)
  - 009: Inline Button
+ - 010: Inline Button (2) | Practice | Moduls
