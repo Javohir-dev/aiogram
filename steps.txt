@@ -20,4 +20,6 @@ Lessons:
  - 011: Like or dislike
  - 012: Project | Start
  - 013: Project | Random photo
- - 014: Project | Random photo
+ - 014: Project | Random photo | Text()
+ - 015: Project | Random photo | Text() | Ended
+ - 016: What is asyncio?
