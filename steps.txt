@@ -23,3 +23,6 @@ Lessons:
  - 014: Project | Random photo | Text()
  - 015: Project | Random photo | Text() | Ended
  - 016: What is asyncio?
+ - 017: What is asyncio? | Practice
+ - 018: What is asyncio? | Practice (2)
+ - 019: 
