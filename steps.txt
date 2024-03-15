@@ -29,3 +29,5 @@ Lessons:
  - 020: is_voted || is_not_voted
  - 021: Callback practice
  - 022: Callback practice (2)
+ - 023: CallbackData()
+ - 024: BotBlocked() | Practice
