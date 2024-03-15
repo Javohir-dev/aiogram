@@ -25,4 +25,7 @@ Lessons:
  - 016: What is asyncio?
  - 017: What is asyncio? | Practice
  - 018: What is asyncio? | Practice (2)
- - 019: 
+ - 019: Random photo
+ - 020: is_voted || is_not_voted
+ - 021: Callback practice
+ - 022: Callback practice (2)
