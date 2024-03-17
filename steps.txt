@@ -31,4 +31,4 @@ Lessons:
  - 022: Callback practice (2)
  - 023: CallbackData()
  - 024: BotBlocked() | Practice
- - 025: 
+ - 025: Inline Bot | Echo bot
