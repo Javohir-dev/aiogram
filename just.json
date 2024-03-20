@@ -1,0 +1,27 @@
+{
+    "message_id": 657,
+    "from": {
+        "id": 923160199,
+        "is_bot": false,
+        "first_name": "Javohir",
+        "last_name": "Dev",
+        "username": "Javohir_4422",
+        "language_code": "en"
+    },
+    "chat": {
+        "id": 923160199,
+        "first_name": "Javohir",
+        "last_name": "Dev",
+        "username": "Javohir_4422",
+        "type": "private"
+    },
+    "date": 1710950436,
+    "text": "/start",
+    "entities": [
+        {
+            "type": "bot_command",
+            "offset": 0,
+            "length": 6
+        }
+    ]
+}
