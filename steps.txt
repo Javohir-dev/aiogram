@@ -37,3 +37,4 @@ Lessons:
  - 028: Classmethod
  - 029: Inline Bot
  - 029: FSM
+ - 033: DataBase connection
