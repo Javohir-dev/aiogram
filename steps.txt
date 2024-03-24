@@ -36,5 +36,7 @@ Lessons:
  - 027: Inline Bot | Echo bot | Practice (2)
  - 028: Classmethod
  - 029: Inline Bot
- - 029: FSM
+ - 030: FSM
+ - 031: FSM get some data from user
+ - 032: FSM | Practice
  - 033: DataBase connection
