@@ -40,3 +40,4 @@ Lessons:
  - 031: FSM get some data from user
  - 032: FSM | Practice
  - 033: DataBase connection
+ - 034: Middleware | Practice (1)
