@@ -4,6 +4,7 @@ Command:
  ~ $ pip install aiogram==2.25.1
  ~ $ deactivate
 
+
 Source: https://www.youtube.com/playlist?list=PLe-iIMbo5JOJm6DRTjhleHojroS-Bbocr
 
 Lessons:
