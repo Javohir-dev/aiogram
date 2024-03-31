@@ -11,9 +11,9 @@ from sqlite import start_db, create_profile, edit_profile
 from keyboards import get_create, get_keyboard, get_cancel
 
 
-async def on_startup(_):
-    # Mavjud bo'lgan bazani boshlash
-    await start_db()
+# async def on_startup(_):
+#     # Mavjud bo'lgan bazani boshlash
+#     await start_db()
 
 
 # Xotira saqlash uchun MemoryStorage obyektini yaratish
@@ -51,7 +51,7 @@ async def handle_start_command(message: types.Message) -> None:
     # Bosh sahifani ko'rsatish va foydalanuvchi profilini yaratish
     await message.answer(START_MESSAGE, reply_markup=get_keyboard(), parse_mode="html")
     await message.delete()
-    await create_profile(user_id=message.from_user.id)
+    # await create_profile(user_id=message.from_user.id)
 
 
 # 'Loyiha kerak' xabari uchun mulohazalarni qabul qilish
@@ -69,7 +69,6 @@ async def handle_loyiha_kerak(message: types.Message) -> None:
 # Ism va familya ma'lumotlarini qabul qilish
 @dp.message_handler(state=AnnouncementStatesGroup.full_name)
 async def handle_load_fullname(message: types.Message, state: FSMContext) -> None:
-    print("Ishladi")
     async with state.proxy() as data:
         data["full_name"] = message.text.title()
 
@@ -132,7 +131,7 @@ async def handle_load_description(message: types.Message, state: FSMContext) -> 
             parse_mode="markdown",
         )
 
-    await edit_profile(state, user_id=message.from_user.id)
+    # await edit_profile(state, user_id=message.from_user.id)
 
     await message.reply(
         "Ma'lumotlaringiz muvaffaqiyatli saqlandi, rahmat.",
@@ -146,5 +145,5 @@ if __name__ == "__main__":
     executor.start_polling(
         dispatcher=dp,
         skip_updates=True,
-        on_startup=on_startup,
+        # on_startup=on_startup,
     )
